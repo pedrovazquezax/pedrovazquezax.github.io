@@ -228,7 +228,7 @@ th {
 .table{
 	margin: auto;
 }
-.adminProyectos{
+.verificacionValidacion{
 
 	background-color: #D55858;
 	color:  white;
@@ -241,7 +241,7 @@ th {
 	background-color: #46AA46;
 	color:  white;
 }
-.diplo{
+.comida{
 	background-color: #D59158;
 	color:  white;
 }
@@ -249,11 +249,11 @@ th {
 	background-color: #358080;
 	color:  white;
 }
-.sisCom{
+.dispos{
 	background-color: #D5AB58;
 	color:  white;
 }
-.baseDatos{
+.redesDatos{
 	background-color: #AA467F;
 	color:  white;
 }
