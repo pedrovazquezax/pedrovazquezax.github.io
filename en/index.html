@@ -9,9 +9,10 @@
   <link rel="alternate" hreflang="es" href="https://pedrovazquezax.github.io/">
   <link rel="alternate" hreflang="en" href="https://pedrovazquezax.github.io/en/">
   <link rel="alternate" hreflang="x-default" href="https://pedrovazquezax.github.io/">
+  <link rel="canonical" href="https://pedrovazquezax.github.io/en/">
   <meta property="og:type" content="website">
   <meta property="og:title" content="Pedro Vázquez · Senior iOS Developer">
-  <meta property="og:description" content="Mobile experiences that feel native. Swift, SwiftUI and AI-assisted development.">
+  <meta property="og:description" content="Native iOS apps, built with Swift and SwiftUI. AI-assisted development.">
   <meta property="og:locale" content="en_US">
   <meta property="og:url" content="https://pedrovazquezax.github.io/en/">
   <meta property="og:image" content="https://pedrovazquezax.github.io/assets/img/og.png">
@@ -30,7 +31,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../assets/css/styles.css">
   <script>
-    /* Apply the saved theme before first paint to avoid a flash */
+    /* Flag that JS is available (the mobile menu only collapses if it works) and apply the saved theme before first paint */
+    document.documentElement.classList.add("js");
     try {
       var t = localStorage.getItem("pv-theme");
       if (t === "light" || t === "dark") document.documentElement.setAttribute("data-theme", t);
@@ -62,12 +64,12 @@
 
     <main id="contenido">
       <section class="hero" id="inicio" aria-labelledby="titulo">
-        <!-- PHOTO HIDDEN: uncomment when a new photo is available (replace ../assets/img/profile.jpg)
+        <!-- PHOTO HIDDEN: to show it, add ../assets/img/profile.jpg (square, at least 480 px) and uncomment this block
         <img class="avatar" src="../assets/img/profile.jpg" width="152" height="152" alt="Portrait of Pedro Vázquez">
         -->
         <p class="eyebrow">Senior iOS Developer · AI-assisted development</p>
-        <h1 id="titulo">Mobile experiences that feel native.</h1>
-        <p class="lead">6+ years building iOS apps for banking and retail with Swift and SwiftUI.</p>
+        <h1 id="titulo">Native iOS apps, built with Swift and SwiftUI.</h1>
+        <p class="lead">6+ years in banking and retail: apps from scratch, SwiftUI migrations and technical leadership.</p>
         <div class="actions">
           <a class="btn btn--primary" href="../assets/cv/Pedro-Vazquez-CV-EN.pdf" download>Download CV (PDF)</a>
           <a class="btn btn--ghost" href="#contacto">Get in touch</a>
@@ -93,7 +95,7 @@
 
       <section id="experiencia" aria-labelledby="h-experiencia">
         <h2 class="section-title" id="h-experiencia">Experience</h2>
-        <div class="grid grid--cards">
+        <div class="grid grid--wide">
           <article class="card">
             <span class="meta">Sep 2024 – Present</span>
             <h3>Wizeline · iOS Software Engineer III</h3>
