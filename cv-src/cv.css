@@ -1,0 +1,29 @@
+@page { size: Letter; margin: 0.55in 0.6in; }
+* { box-sizing: border-box; }
+html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+body {
+  margin: 0; color: #1f2328; font-family: -apple-system, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 9.6pt; line-height: 1.38;
+}
+h1, h2, h3, p, ul { margin: 0; padding: 0; }
+header { border-bottom: 2px solid #0f766e; padding-bottom: 8pt; margin-bottom: 10pt; }
+h1 { font-size: 22pt; letter-spacing: -0.01em; }
+.role { color: #0f766e; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; font-size: 9pt; margin-top: 2pt; }
+.contact { margin-top: 5pt; font-size: 8.8pt; color: #424a53; }
+.contact span + span::before { content: " | "; color: #8a949e; }
+h2 {
+  font-size: 10pt; text-transform: uppercase; letter-spacing: 0.08em; color: #0f766e;
+  border-bottom: 1px solid #d0d7de; padding-bottom: 2pt; margin: 11pt 0 6pt;
+}
+.item { margin-bottom: 7pt; break-inside: avoid; }
+.row { display: flex; justify-content: space-between; align-items: baseline; gap: 12pt; }
+.row h3 { font-size: 10.2pt; }
+.row .date { color: #57606a; font-size: 8.8pt; white-space: nowrap; }
+.sub { display: flex; justify-content: space-between; color: #424a53; font-size: 9pt; }
+ul { padding-left: 13pt; margin-top: 2pt; }
+li { margin-bottom: 1.5pt; }
+.skills-line { margin-top: 2pt; color: #424a53; font-size: 8.8pt; }
+.skills-line b { color: #1f2328; }
+dl { margin: 0; display: grid; grid-template-columns: 78pt 1fr; gap: 2pt 8pt; }
+dt { font-weight: 600; }
+dd { margin: 0; }
